@@ -4,7 +4,7 @@
     <!-- LOGO -->
     <div class="topbar-left">
         <div class="">
-            <a href="index.html" class="logo">
+            <a href="main.php" class="logo">
                 <img src="assets/images/logo.png" alt="logo" class="logo-lg" />
                 <img src="assets/images/logo_sm.png" alt="logo" class="logo-sm hidden" />
             </a>
@@ -104,7 +104,7 @@
                     <li class="dropdown top-menu-item-xs">
                         <a href="" class="dropdown-toggle menu-right-item profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)"><i class="ti-user m-r-10"></i> Profile</a></li>
+                            <li><a href="profile.php"><i class="ti-user m-r-10"></i> Profile</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-settings m-r-10"></i> Settings</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-lock m-r-10"></i> Lock screen</a></li>
                             <li class="divider"></li>
@@ -135,7 +135,7 @@
                         <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md img-circle">
                     </div>
                     <div class="user-info">
-                        <a href="#">Stanley Jones</a>
+                        <a href="profile.php">Stanley Jones</a>
                         <p class="text-muted m-0">Administrator</p>
                     </div>
                 </div>
@@ -143,20 +143,20 @@
 
                 <!-- Left Menu Start -->
                 <ul class="metisMenu nav" id="side-menu">
-                    <li><a href="index.html"><i class="ti-home"></i> Dashboard </a></li>
+                    <li><a href="main.php"><i class="ti-home"></i> Dashboard </a></li>
 
-                    <li><a href="ui-elements.html"><span class="label label-custom pull-right">11</span> <i class="ti-paint-bucket"></i> Agenda </a></li>
+                    <li><a href="ui-elements.html"><span class="label label-custom pull-right">11</span> <i class="mdi mdi-calendar"></i> Agenda </a></li>
 
                     <li>
-                        <a href="javascript: void(0);" aria-expanded="true"><i class="ti-light-bulb"></i> Citas <span class="fa arrow"></span></a>
+                        <a href="javascript: void(0);" aria-expanded="true"><i class=" mdi mdi-calendar-clock"></i> Citas <span class="fa arrow"></span></a>
                         <ul class="nav-second-level nav" aria-expanded="true">
                             <li><a href="assets/crud/citas.php">Ver citas</a></li>
-                            <li><a href="components-range-slider.html">Registrar cita</a></li>
+                            <li><a href="citas_reg.php">Registrar cita</a></li>
                         </ul>
                     </li>
 
                     <li>
-                        <a href="javascript: void(0);" aria-expanded="true"><i class="ti-light-bulb"></i> Pacientes <span class="fa arrow"></span></a>
+                        <a href="javascript: void(0);" aria-expanded="true"><i class="mdi mdi-face-profile"></i> Pacientes <span class="fa arrow"></span></a>
                         <ul class="nav-second-level nav" aria-expanded="true">
                             <li><a href="components-range-slider.html">Ver pacientes</a></li>
                             <li><a href="components-range-slider.html">Registrar paciente</a></li>
@@ -164,12 +164,14 @@
                     </li>
 
                     <li>
-                        <a href="javascript: void(0);" aria-expanded="true"><i class="ti-pencil-alt"></i> Médicos <span class="fa arrow"></span></a>
+                        <a href="javascript: void(0);" aria-expanded="true"><i class="mdi mdi-stethoscope"></i> Médicos <span class="fa arrow"></span></a>
                         <ul class="nav-second-level nav" aria-expanded="true">
-                            <li><a href="forms-general.html">Ver médicos</a></li>
-                            <li><a href="forms-advanced.html">Registrar médico</a></li>
+                            <li><a href="medicos_table.php">Ver médicos</a></li>
+                            <li><a href="medicos_reg.php">Registrar médico</a></li>
                         </ul>
                     </li>
+
+                    <li><a href="users.php"><i class="mdi mdi-human-male"></i> Usuarios </a></li>
 
                 </ul>
             </div>

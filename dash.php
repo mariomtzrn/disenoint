@@ -37,7 +37,6 @@
 </div>
     <!--end row -->
 
-
     <div class="row">
         <div class="col-lg-6">
             <div class="card-box">
@@ -74,13 +73,12 @@
         </div> <!-- end col -->
     </div> <!-- end row -->
 
-
     <div class="row">
         <div class="col-sm-12">
             <div class="card-box">
                 <h4 class="m-t-0">Médicos</h4>
          <!--Tabla doctores------->
-               <?php include 'doctores.php';?>
+               <?php include 'doctores_tabledash.php';?>
          <!--Tabla doctores------->
             </div>
         </div>

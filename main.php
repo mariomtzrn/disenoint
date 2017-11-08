@@ -33,10 +33,11 @@
           <?php include("nav.php"); ?>
                 <!-- START PAGE CONTENT -->
                 <div id="page-right-content">
-                  <?php include("/content/dashboard/dash.php"); ?>
-
+                  <?php include("dash.php"); ?>
+                </div>
         </div>
         <!-- End #page-wrapper -->
+
         <!-- js placed at the end of the document so the pages load faster -->
         <script src="assets/js/jquery-2.1.4.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
