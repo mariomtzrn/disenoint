@@ -146,12 +146,6 @@ ALTER TABLE `medicos`
   ADD PRIMARY KEY (`medico_id`);
 
 --
--- Indices de la tabla `mensajes_contacto`
---
-ALTER TABLE `mensajes_contacto`
-  ADD PRIMARY KEY (`msg_id`);
-
---
 -- Indices de la tabla `pacientes`
 --
 ALTER TABLE `pacientes`
